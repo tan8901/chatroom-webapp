@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --green: #4b664a;
+  --red: #902124 ;
+  --dark: #1c2120;
+  --gray: #8d8f84;
+  --darkgray: #363636;
+  --lightgray: #f2efeb;
+  --yellow: #ffde59;
+  --cream: #eadfcd;
+  --bluegray: #d5e1ea;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.home__container {
+  background-color: var(--cream);
+  color:var(--dark);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home__container > * {
+  margin-bottom: 10px;
+}
+.home__header {
+  margin-bottom: 30px;
+}
+.input_field {
+  padding: 10px;
+  width: 50%;
+}
+.input_field:focus {
+  background-color: var(--bluegray);
+}
+.home__cta {
+  width: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #607eaa;
+  color: #f9f5eb;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.chat {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.chat__sidebar {
+  height: 100%;
+  background-color: var(--dark);
+  color: var(--lightgray);
+  flex: 0.3;
+  padding: 20px;
+  overflow-y: scroll;
+}
+.chat__main {
+  height: 100%;
+  flex: 0.7;
+}
+.chat__header {
+  margin: 30px 0 20px 0;
+}
+
+.chat__users > * {
+  margin-bottom: 10px;
+  background-color: var(--darkgray);
+  color: var(--yellow);
+  font-size: 14px;
+  overflow-y: hidden;
+  padding: 5px;
+  border-radius: 5px;
+}
+.online__users > * {
+  margin-bottom: 10px;
+  color: rgb(238, 102, 102);
+  font-style: italic;
+}
+.chat__mainHeader {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: var(--dark);
+  color: var(--lightgray);
+}
+.chat__mainHeader p {
+  font-size: 20px;
+}
+.leaveChat__btn {
+  padding: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: var(--red);
+  cursor: pointer;
+  color: #eae3d2;
+}
+.message__container {
+  width: 100%;
+  height: 80vh;
+  background-color: var(--gray);
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.message__container > * {
+  margin-bottom: 10px;
+}
+.chat__footer {
+  padding: 10px;
+  background-color: var(--dark);
+  height: 10vh;
+}
+.form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.message {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  padding: 15px;
+}
+.sendBtn {
+  width: 150px;
+  background-color: green;
+  padding: 10px;
+  border: none;
+  outline: none;
+  color: #eae3d2;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.sendBtn:hover {
+  background-color: rgb(129, 201, 129);
+}
+.message__recipient {
+  background-color: #f5ccc2;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.message__sender {
+  background-color: rgb(194, 243, 194);
+  max-width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: auto;
+  font-size: 15px;
+}
+
+input {
+  background-color: var(--lightgray);
+}
+
+.message__chats > p {
+  font-size: 13px;
+}
+.sender__name {
+  text-align: right;
+  font-weight: 600;
+}
+.message__status {
+  position: fixed;
+  bottom: 50px;
+  font-size: 13px;
+  font-style: italic;
+  display: none;
+}
+.cloud {
+  max-width: 300px;
+  max-height: 300px;
+  height: 240px;
+  background-color: var(--lightgray);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar { 
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: var(--darkgray);
+    border: 6px solid var(--dark);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--lightgray);
+    border:4px solid transparent;
+    background-clip: content-box;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--yellow);
+    border:4px solid transparent;
+    background-clip: content-box;
+}
+
+.Collapsible__trigger {
+  background-color: var(--cream);
+  color: var(--dark);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Collapsible__trigger:hover {
+  cursor: pointer;
+  background-color: var(--green);
+  color: var(--lightgray);
+}
+
+.Collapsible__contentOuter {
+  margin:20px;
+}
+
+.Collapsible__contentInner {
+  margin-top: 15px;
+  width: 200px;
+}
+
+.sheet, .notes {
+  height: 300px;
+  width: 400px;
+  border-radius: 5px;
+  overflow-y: scroll;
+}

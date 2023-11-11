@@ -1,0 +1,92 @@
+3/7/2023
+------------------
+admin (20:31): hi this is admin typing
+admin (20:31): admin message demo testing
+user1 (20:31): This is user 1
+user1 (20:31): Demo testing message
+admin (20:31): demo testing admin
+
+5/7/2023
+------------------
+admin (17:22): admin demo testing
+
+5/8/2023
+------------------
+admin (17:25): this is admin
+user1 (17:25): This is user 1
+user2 (17:25): hello this is user 2
+user2 (17:25): this is admin
+admin (17:25): hello
+admin (19:18): hello
+admin (19:18): hi
+admin (19:18): demo testing
+user1 (19:18): Hello I am user 1
+user1 (19:18): I am leaving now
+admin (19:18): ok
+admin (19:18): hello!
+admin (19:18): everything works!
+
+1/8/2023
+------------------
+admin (20:26): hi
+admin (20:26): hello
+
+7/8/2023
+------------------
+admin (21:33): yo
+admin (21:34): demo demo testing testing
+
+8/8/2023
+------------------
+admin (14:55): hello
+admin (14:55): demo testing
+admin (14:56): admin
+admin (15:5): hello demo
+admin (15:5): ABC sold this much data as can be seen
+user1 (15:9): Hi
+admin (15:9): hello
+user1 (15:22): Hi
+user1 (15:23): Dmeo
+
+10/8/2023
+------------------
+admin (18:58): hello this is demo message from admin
+user1 (18:58): This is demo message from user 1
+
+11/8/2023
+------------------
+user1 (9:10): hellooo
+admin (9:10): hi this is admin
+admin (15:5): hello this is admin
+user1 (15:5): hi im user1
+
+4/10/2023
+------------------
+admin (18:18): demo testing log file
+admin (18:33): hello
+admin (18:34): @!#$%%
+admin (18:34): /
+admin (18:34): message with only space does not send
+admin (18:34):                 .
+admin (18:35): 😂😂😂
+
+5/10/2023
+------------------
+
+7/11/2023
+------------------
+admin (19:48): hello demo testing
+user1 (19:49): hello this is user 1
+user1 (19:49): today is 7-11-23
+admin (19:49): hello user 1
+admin (19:49): this is admin
+
+8/11/2023
+------------------
+user1 (9:4): hello this is user 1
+admin (9:4): hello this is admin
+admin (11:14): hello
+admin (11:14): demo testing
+user1 (11:19): hi this is user 1
+admin (11:19): hello user 1
+admin (11:19): this is admin

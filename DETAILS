@@ -1,0 +1,16 @@
+owner: Tanuja Voruganti
+app name: Chatroom Web Application
+last updated: 11-11-2023 10:30 AM IST
+features implemented:
+- dark mode CSS
+- Cloud Storage Embed -- you need to add your document IDs before using
+- handling page refresh event bug
+- fixed double user login bug
+- username and password authentication
+- log file + today file
+- displaying all active users
+
+features to be implemented:
+- deployment
+- IP address restriction if you have a permanent IP (change the || -> &&)
+- network security groups
