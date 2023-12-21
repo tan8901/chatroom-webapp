@@ -18,4 +18,8 @@ A (basic) secure chatroom web application which uses Socket.IO to implement mess
 ## cloud components
 ![image](https://github.com/tan8901/chatroom-webapp/assets/114811524/8e80a83d-1570-44f6-8ed1-8cfaf1a72393)
 
+![image](https://github.com/tan8901/chatroom-webapp/assets/114811524/5793e418-960c-4c3e-a37b-95429f57e814)
+
+![image](https://github.com/tan8901/chatroom-webapp/assets/114811524/639e9b15-b0f4-4605-8760-d26c8b25c4fa)
+
 Designed by `Tanuja V` for a college project (and also to learn more about ReactJS)
